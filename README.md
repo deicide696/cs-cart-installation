@@ -18,8 +18,16 @@ CS-Cart installation about AWS EC2 (ALB) Docker, Certificate Manager (HTTPS) and
   - docker-compose version
 4. In local folder in EC2 instance (cd ~), clone repo: git clone https://github.com/cscart/development-docker.git && cd development-docker
 5. mkdir -p app/www
-6. Upload multivendor files into the app/www directory
-7. make -f Makefile run
+6. cd app/www
+7. Upload multivendor files into the app/www directory
+8. chmod 666 config.local.php
+9. chmod -R 777 design images var
+10. find design -type f -print0 | xargs -0 chmod 666
+11. find images -type f -print0 | xargs -0 chmod 666
+12. find var -type f -print0 | xargs -0 chmod 666
+13. chmod 644 design/.htaccess images/.htaccess var/.htaccess var/themes_repository/.htaccess
+14. chmod 644 design/index.php images/index.php var/index.php var/themes_repository/index.php
+15. make -f Makefile run
 
 
 MySQL connection (info for installation)
