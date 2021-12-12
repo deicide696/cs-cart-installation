@@ -27,7 +27,8 @@ CS-Cart installation about AWS EC2 (ALB) Docker, Certificate Manager (HTTPS) and
 12. find var -type f -print0 | xargs -0 chmod 666
 13. chmod 644 design/.htaccess images/.htaccess var/.htaccess var/themes_repository/.htaccess
 14. chmod 644 design/index.php images/index.php var/index.php var/themes_repository/index.php
-15. make -f Makefile run
+15. cd .. && cd ..
+16. make -f Makefile run
 
 
 MySQL connection (info for installation)
