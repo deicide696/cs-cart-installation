@@ -36,3 +36,7 @@ MySQL connection (info for installation)
 DB host: mysql5.7
 User: root
 Password: root
+
+## References:
+
+- https://docs.cs-cart.com/latest/install/linux/index.html
