@@ -5,7 +5,7 @@ CS-Cart installation about AWS EC2 (ALB) Docker, Certificate Manager (HTTPS) and
 3. Prepare EC2 instance with git, docker and docker-compose
 - Connect to SSH and run:
   - sudo yum update -y
-  - sudo amazon-linux-extras install docker
+  - sudo amazon-linux-extras install docker -y
   - sudo service docker start
   - sudo usermod -a -G docker ec2-user
   - Log out
