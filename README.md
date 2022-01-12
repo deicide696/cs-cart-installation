@@ -11,7 +11,7 @@ CS-Cart installation about AWS EC2 (ALB) Docker, Certificate Manager (HTTPS) and
   - Log out
   - docker info
   - sudo chkconfig docker on
-  - sudo yum install -y git
+  - sudo yum install git -y
   - sudo reboot
   - sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
   - sudo chmod +x /usr/local/bin/docker-compose
