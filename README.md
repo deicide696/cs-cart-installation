@@ -1,4 +1,4 @@
-# cs-cart-installation to prodution
+# CS-Cart installation about Amazon WebServices AWS EC2 (ALB) Docker, Certificate Manager (HTTPS) and Route 53
 CS-Cart installation about AWS EC2 (ALB) Docker, Certificate Manager (HTTPS) and Route 53
 
 1. Deploy EC2 instance - Amazon Linux 2 with 30 GB in ELB, open ports: 22, 80, 443
